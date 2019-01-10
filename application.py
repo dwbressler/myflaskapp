@@ -13,10 +13,10 @@ application.debug = True
 
 #Flask decorator. It says, if the user goes to the “/” URL of your website 
 # (in other words the homepage) then run the next 2 lines
-@application.route(‘/’, methods=[‘GET’])
+@application.route('/', methods=['GET'])
 def hello():
- return ‘<p>Hello world</p>’
+ return '<p>Hello world</p>'
 
 # initialise the Flask application.
-if __name__ == “__main__”:
+if __name__ == "__main__":
  application.run()
